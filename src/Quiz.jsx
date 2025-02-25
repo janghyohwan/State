@@ -18,7 +18,7 @@ const Quiz = () => {
       <button
         onClick={() => {
           setEmoji((prev) => {
-            return prev == 5 ? prev : prev + 1;
+            return prev == arr.length - 1 ? prev : prev + 1;
           });
         }}
       >
